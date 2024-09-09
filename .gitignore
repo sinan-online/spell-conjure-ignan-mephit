@@ -1,0 +1,14 @@
+*.aux
+*.log
+*.out
+*.pdf
+*.bbl
+*.bcf
+*.blg
+*.fdb*
+*.fls
+*.run.xml
+*.syntex.gz
+*.zip
+
+spell-card/*
