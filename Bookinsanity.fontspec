@@ -1,8 +1,0 @@
-\defaultfontfeatures[Bookinsanity]{
-  Path = ./fonts/Bookinsanity/ ,
-  Extension = .otf,
-  UprightFont = Bookinsanity, 
-  ItalicFont = Bookinsanity Italic, 
-  BoldFont = Bookinsanity Bold,
-  BoldItalicFont = Bookinsanity Bold Italic
-}

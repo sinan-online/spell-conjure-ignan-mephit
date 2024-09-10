@@ -9,16 +9,14 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
-      - name: lualatex main
+      - name: pdflatex main
         uses: dante-ev/latex-action@latest
-        continue-on-error: true
         with:
           root_file: ConjureIgnanMephitLevel2.tex
           compiler: lualatex
           args: -interaction=nonstopmode -shell-escape
-      - name: lualatex main 2
+      - name: pdflatex main 2
         uses: dante-ev/latex-action@latest
-        continue-on-error: true
         with:
           root_file: ConjureIgnanMephitLevel2.tex
           compiler: lualatex
